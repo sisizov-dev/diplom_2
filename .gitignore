@@ -1,0 +1,49 @@
+# Python (кэш и скомпилированные файлы)
+__pycache__/          
+*.py[cod]             
+*$py.class            
+*.so                  
+
+# Виртуальное окружение
+env/                  
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи Selenium
+geckodriver.log       
+*.log                 
+
+# Настройки IDE
+.vscode/              
+.idea/               
+*.iml                 
+*.swp                 
+*.swo                 
+
+# Операционные системы
+Thumbs.db             
+desktop.ini           
+ 
+# Файлы с секретами
+*.env                 
+config.ini            
+secrets.py            
+
+# Тестирование (кэш и отчеты)
+.pytest_cache/        
+htmlcov/              
+.coverage             
+.tox/                 
+.mypy_cache/          
+.dmypy.json           
+dmypy.json
+
+# Драйверы для браузеров 
+drivers/*.exe         
+drivers/*.zip         
+*.zip                 
+*.tar.gz              
+allure-results/
